@@ -8,6 +8,6 @@ DIVIDE:
       ADD R2, R2, #1
       B DIVIDE
 END:
-      OUT R2,4 //Ans
-      OUT R0,4 //Remainder
+      OUT R2,4 // Ans
+      OUT R0,4 // Remainder
       HALT
